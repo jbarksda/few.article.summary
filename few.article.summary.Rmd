@@ -1,0 +1,17 @@
+---
+title: "Few Summary Article"
+author: "Jared Barksdale"
+date: "September 20, 2015"
+output: html_document
+---
+
+Individuals in multiple business organizations frequently do a poor job at representing data, especially when this data is quantitative in nature. The author suggests that the poor portrayal is frequently unintentional, and that there is simply a lack of proper training on data visualization and what graphs or tables are most beneficial. He suggests six decisions or stages that might help remedy the situation to more effectively communicate. These six stages are summarized below.
+
+The first step is to determine the message you are trying to convey, and then to identify the data necessary to convey that message. The author compared this step to speaking. When you are speaking with someone, you sift through content and choose your words specifically. The same should be said for a graph or table, meaning you shouldn't just include everything, and throw all the data out there. You need to first understand the data, why it is important to you or your audience, and then cut out any distractions to that importance.
+
+The second step is to determine if a graph, table, or both are needed to communicate your message and its importance. If the data needs to be precise or comparative in nature, go with a table. If the data pertains to trends, comparisons of multiple variables, or patterns, a graph should be chosen. If your data requires both, then don't be afraid to use both (though I do feel like Tufte might disagree). 
+
+If you decide that a graph or table is needed, the next step is to "determine the best means to encode your values". Based on the relationship type, you can select a best fit for encoding data, i.e. nominal-bars/points, time series-lines/bars/points, etc. The next step is to determine where each variable should be displayed. This is only an issue when there are multiple variables. Category variables should always be on the x axis, and quantitative on the y axis. This becomes more difficult when there are three variables, but the author suggests reserving the x axis for that variable that is most important to your message. Additional variables can be displayed in multicolored bars.
+
+The next step is to determine the best design for the remaining objects. Remaining objects include the quantitative range, which should always start at zero and extend a little above the highest data points, and a little below the lowest. Another object is the legend, and its location, however, if possible, it is better to label the data, i.e. the individual bars. Other objects include axes tick marks, location of quantitative scale, grid lines, and descriptive text.
+The final step is to highlight particular data that you might be featuring. This can be done by using additional colors, thicker lines, or borders. By using all of these pointers, you can better communicate the message you are trying to convey to your audience
